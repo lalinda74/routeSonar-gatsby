@@ -1,0 +1,25 @@
+.rs-nav-menu {
+    list-style-type: none;
+    display: flex;
+    &__item {
+        a{
+            font-size: 18px;
+            font-weight: 600;
+            padding: 0 40px;
+            cursor: pointer;
+            &:hover {
+                cursor: pointer;
+                font-weight: 600;
+                color: #eb5757;
+                text-decoration: none;
+                &::after {
+                    opacity: 1;
+                    width: 100%;
+                }
+            }
+            &::after {
+                background: #eb5757;
+            }
+        }
+    }
+}

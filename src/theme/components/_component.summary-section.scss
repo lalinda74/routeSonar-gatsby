@@ -1,0 +1,8 @@
+.rs-summary {
+    background: #fffbf6;
+    display: flex;
+    height: calc(100vh - 73px);
+    &__left {
+        width: 60%;
+    }
+}
