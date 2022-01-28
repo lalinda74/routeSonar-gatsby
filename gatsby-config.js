@@ -4,6 +4,16 @@ module.exports = {
         siteUrl: `https://www.yourdomain.tld`,
     },
     plugins: [
-        `gatsby-plugin-sass`
+        `gatsby-plugin-sass`,
+        `@popperjs/core`,
+        `bootstrap`,
+        {
+            resolve: 'gatsby-plugin-google-fonts',
+            options: {
+              fonts: [
+                'material icons'
+              ],
+            },
+        },
     ]
 }

@@ -9,8 +9,7 @@ const Layout = ({ pageTitle, children }) => {
     query {
       site {
         siteMetadata {
-          title,
-          siteUrl
+          title
         }
       }
     }
@@ -18,7 +17,7 @@ const Layout = ({ pageTitle, children }) => {
 
   return (
     <div className={container}>
-        <h1>{ data.site.siteMetadata.title} - { data.site.siteMetadata.siteUrl }</h1>
+        <h1>{ data.site.siteMetadata.title}</h1>
       <title>{pageTitle}</title>
       <nav>
         <ul>

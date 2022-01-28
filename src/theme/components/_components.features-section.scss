@@ -1,0 +1,21 @@
+.rs-features {
+    background: #EFFBFD;
+    height: 100vh;
+    &__left {
+        // width: 60%;
+    }
+}
+
+.rs-icon-box {
+    margin-right: 1.5rem;
+    > span {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFF;
+        border-radius: 12px;
+        box-shadow: 4px 2px 40px rgb(0 0 0 / 10%);
+    }
+}

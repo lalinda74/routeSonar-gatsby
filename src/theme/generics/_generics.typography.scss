@@ -1,8 +1,16 @@
 h1 {
     font-size: 3rem;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 700;
 }
 h3{
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
     font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
 }

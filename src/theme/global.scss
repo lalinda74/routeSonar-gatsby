@@ -1,3 +1,10 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-size: 24px;
+}
+
+@import '~bootstrap/scss/bootstrap';
+
 // settings
 
 // generics
@@ -8,6 +15,8 @@
 @import './objects/objects.button';
 @import './objects/objects.nav-menu';
 @import './objects/objects.header';
+@import './objects/objects.featured-section';
 
 // components
 @import './components/component.summary-section';
+@import './components/components.features-section';

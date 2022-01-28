@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { styles } from './header.scss';
 import logo from '../../images/logo.svg';
 
 const Header = () => {
@@ -18,6 +17,9 @@ const Header = () => {
           </ul>
         </nav>
         <button className='rs-primary-btn rs-primary-btn--primary'>Let's Talk</button>
+        <a href="" className="rs-header__menu">
+          <span className="material-icons">menu</span>
+        </a>
     </header>
   )
 }
