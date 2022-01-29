@@ -1,30 +1,48 @@
-import * as React from 'react';
-import { Container } from 'react-bootstrap';
-import TCLogo from '../../../images/tc-logo.png';
+import * as React from "react";
+import { Container } from "react-bootstrap";
+import TCLogo from "../../../images/tc-logo.png";
 
 const PricingPlans = () => {
-
   return (
-    <Container className='rs-summary'>
-      <div className='rs-summary__left col-xs-12 col-md-6'>
-        <h1 className='mt-4'>Plan the best travel route for your <br/> last mile deliveries</h1>
-        <h3 className='mt-4'>RouteSonar helps you improve your on road efficiency by more than 20% while enabling you to accommodate more orders.</h3>
-        <div>
-          <button className='rs-primary-btn rs-primary-btn--primary-red mt-4'>Book a Demo</button>
+    <Container className="rs-pricing-plan">
+      <h2 className="text-center pt-5">
+        Simple pricing
+        <br /> for everyone
+      </h2>
+      <p className="text-center">Pricing built for businesses of all sizes. <br /> Always know what you’ll pay.</p>
+      <div className="row mt-5">
+          <div className="col-12 col-sm-4 mb-5 rs-card">
+              <h5 className="text-center">Lite</h5>
+              <p className="text-center">Made for starters</p>
+              <ul>
+                <li>5,000 locations</li>
+                <li>Mail support</li>
+              </ul>
+              <h4 className="text-center">LKR 35,000 / month</h4>
+              <p className="text-center">LKR 8 per additional request</p>
+          </div>
+          <div className="col-12 col-sm-4 mb-5 rs-card">
+              <h5 className="text-center">Lite</h5>
+              <p className="text-center">Made for starters</p>
+              <ul>
+                <li>5,000 locations</li>
+                <li>Mail support</li>
+              </ul>
+              <h4 className="text-center">LKR 35,000 / month</h4>
+              <p className="text-center">LKR 8 per additional request</p>
+          </div>
+          <div className="col-12 col-sm-4 mb-5 rs-card">
+              <h5 className="text-center">Lite</h5>
+              <p className="text-center">Made for starters</p>
+              <ul>
+                <li>5,000 locations</li>
+                <li>Mail support</li>
+              </ul>
+              <h4 className="text-center">LKR 35,000 / month</h4>
+              <p className="text-center">LKR 8 per additional request</p>
+          </div>
         </div>
-        <div className='rs-featured mt-5'>
-          <h6>Featured on</h6>
-          <picture>
-            <img src={TCLogo} loading="lazy" alt="profile" className="rs-featured__logo" />
-          </picture>
-          <picture>
-            <img src={TCLogo} loading="lazy" alt="profile" className="rs-featured__logo" />
-          </picture>
-        </div>
-      </div>
-      <div className='rs-summary__right col-4'>
-      </div>
     </Container>
-  )
-}
-export default PricingPlans
+  );
+};
+export default PricingPlans;
