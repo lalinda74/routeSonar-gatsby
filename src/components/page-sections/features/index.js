@@ -1,13 +1,14 @@
 import * as React from 'react';
+import { Container } from 'react-bootstrap';
 import Feature1 from '../../../images/feature1.svg';
 
 const Features = () => {
 
   return (
-    <section className='rs-wrapper rs-features'>
+    <Container className='rs-features'>
         <h2 className='text-center pt-5'>We help you move your<br/> Deliveries</h2>
         <div className='row'>
-          <div className='rs-summary__left col-xs-4 col-md-4'>
+          <div className='rs-summary__left col-12 col-sm-4'>
               <div className='d-flex mb-4'>
                   <span className='rs-icon-box'>
                     <span className="material-icons">menu</span>
@@ -36,11 +37,11 @@ const Features = () => {
                   </div>
               </div>
           </div>
-          <div className='rs-summary__right col-md-8'>
-            <img src={Feature1} />
+          <div className='rs-summary__right col-12 col-md-8 mt-5'>
+            <img src={Feature1} className='img-fluid' alt='feature 1'/>
           </div>
         </div>
-    </section>
+    </Container>
   )
 }
 export default Features;

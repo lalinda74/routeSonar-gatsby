@@ -1,13 +1,7 @@
 .rs-nav-menu {
-    list-style-type: none;
-    display: flex;
-    margin-bottom: 0;
-    &__item {
         a{
-            font-size: 18px;
-            font-weight: 600;
-            padding: 0 2rem;
-            cursor: pointer;
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
             &:hover {
                 cursor: pointer;
                 font-weight: 600;
@@ -22,5 +16,4 @@
                 background: #eb5757;
             }
         }
-    }
 }

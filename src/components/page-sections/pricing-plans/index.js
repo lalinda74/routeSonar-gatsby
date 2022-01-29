@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Container } from 'react-bootstrap';
 import TCLogo from '../../../images/tc-logo.png';
 
-const Summary = () => {
+const PricingPlans = () => {
 
   return (
     <Container className='rs-summary'>
@@ -27,4 +27,4 @@ const Summary = () => {
     </Container>
   )
 }
-export default Summary
+export default PricingPlans

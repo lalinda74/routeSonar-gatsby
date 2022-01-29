@@ -5,8 +5,6 @@ module.exports = {
     },
     plugins: [
         `gatsby-plugin-sass`,
-        `@popperjs/core`,
-        `bootstrap`,
         {
             resolve: 'gatsby-plugin-google-fonts',
             options: {
