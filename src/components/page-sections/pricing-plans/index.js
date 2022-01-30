@@ -12,7 +12,7 @@ const PricingPlans = () => {
         Pricing built for businesses of all sizes. <br /> Always know what
         you’ll pay.
       </p>
-      <div className="row my-5 rs-card-wrapper">
+      <div className="row py-5 rs-card-wrapper">
         <div className="col-12 col-sm-4 col-md-4 mb-5">
           <div className="rs-card">
             <div>
