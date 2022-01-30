@@ -11,16 +11,16 @@ const Footer = () => {
         alt="profile"
         className="rs-header__logo"
       />
-      <ul className="d-flex mt-3 rs-footer__sm-section">
+      {/* <ul className="d-flex mt-3 rs-footer__sm-section">
         <li className="mr-2">
-          <span class="material-icons">account_circle</span>
+          <span className="material-icons">account_circle</span>
         </li>
         <li className="mr-2">
-          <span class="material-icons">account_circle</span>
+          <span className="material-icons">account_circle</span>
         </li>
-      </ul>
+      </ul> */}
       <hr />
-      <span>&copy; 2022 RouteSONAR. All rights reserved.</span>
+      <span className="rs-grey-txt">&copy; 2022 RouteSONAR. All rights reserved.</span>
     </Container>
   );
 };

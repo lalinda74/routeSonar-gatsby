@@ -1,5 +1,8 @@
 .rs-info-box {
     margin-right: 3rem;
+    &__header {
+        margin-bottom: 0.8rem;
+    }
     &__desc {
         color: #696969;
     }
