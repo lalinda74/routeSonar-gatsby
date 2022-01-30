@@ -13,8 +13,8 @@ const Header = () => {
           <Nav className="me-auto">
             <Nav.Link href="#rsSummary">Home</Nav.Link>
             <Nav.Link href="#rsFeatures">Features</Nav.Link>
-            <Nav.Link href="#features">Pricing</Nav.Link>
-            <Nav.Link href="#pricing">FAQ</Nav.Link>
+            <Nav.Link href="#rsPricingPlans">Pricing</Nav.Link>
+            <Nav.Link href="#rsFaq">FAQ</Nav.Link>
           </Nav>
           <Nav>
             <button className='rs-primary-btn rs-primary-btn--primary'>Let's Talk</button>

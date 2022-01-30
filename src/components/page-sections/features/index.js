@@ -6,38 +6,38 @@ const Features = () => {
 
   return (
     <Container className='rs-features'>
-        <h2 className='text-center pt-5'>We help you move your<br/> Deliveries</h2>
+        <h2 className='text-center pt-5'>We help you move your<br/> <span className = "rs-grey-txt">Deliveries</span></h2>
         <div className='row mt-5'>
-          <div className='rs-summary__left col-12 col-sm-4'>
-              <div className='d-flex mb-5'>
+          <div className='col-12 col-md-4'>
+              <div className='d-flex mb-5 rs-info-box'>
                   <span className='rs-icon-box'>
                     <span className="material-icons">menu</span>
                   </span>
                   <div>
-                    <h5>Visualize & Plan</h5>
-                    <p>Manage all of your orders with highly customizable views before optimizing routes.</p>
+                    <h5 className="rs-info-box__header">Visualize & Plan</h5>
+                    <p className="rs-info-box__desc">Manage all of your orders with highly customizable views before optimizing routes.</p>
                   </div>
               </div>
-              <div className='d-flex mb-5'>
+              <div className='d-flex mb-5 rs-info-box'>
                   <span className='rs-icon-box'>
                     <span className="material-icons">menu</span>
                   </span>
                   <div>
-                    <h5>Optimize</h5>
-                    <p>Optimize your routes and distribute among your delivery partners.</p>
+                    <h5 className="rs-info-box__header">Optimize</h5>
+                    <p className="rs-info-box__desc">Optimize your routes and distribute among your delivery partners.</p>
                   </div>
               </div>
-              <div className='d-flex mb-5'>
+              <div className='d-flex mb-5 rs-info-box'>
                   <span className='rs-icon-box'>
                     <span className="material-icons">menu</span>
                   </span>
                   <div>
-                    <h5>Track & Progress</h5>
-                    <p>Track all of your data in one application to make better decisions to grow your business or product.</p>
+                    <h5 className="rs-info-box__header">Track & Progress</h5>
+                    <p className="rs-info-box__desc">Track all of your data in one application to make better decisions to grow your business or product.</p>
                   </div>
               </div>
           </div>
-          <div className='rs-summary__right col-12 col-md-8 d-flex align-items-center'>
+          <div className='col-12 col-md-8 d-flex align-items-center'>
             <img src={Feature1} className='img-fluid' alt='feature 1'/>
           </div>
         </div>

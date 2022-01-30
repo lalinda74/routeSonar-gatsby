@@ -28,3 +28,11 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .rs-tabs {
+        > li {
+            width: 25%;
+        }
+    }
+}

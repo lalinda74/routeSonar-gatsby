@@ -1,6 +1,23 @@
+.rs-card-wrapper {
+    padding: 0 8rem;
+}
+
 .rs-card {
     background: #ECF9F1;
     border-radius: 12px;
-    padding: 24px 12px;
-    height: 22rem;
+    padding: 40px 12px 24px 12px;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__list-item {
+        line-height: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .rs-card-wrapper {
+        padding: 0;
+    }
 }

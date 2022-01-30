@@ -6,12 +6,12 @@ const Faq = () => {
     <Container className="rs-features pb-5">
       <h2 className="text-center pt-5">Frequently Asked Questions</h2>
       <Tabs
-        defaultActiveKey="home"
+        defaultActiveKey="general"
         transition={false}
         id="noanim-tab-example"
         className="my-5 rs-tabs"
       >
-        <Tab eventKey="home" title="Home" className="rs-tabs__tab">
+        <Tab eventKey="general" title="General" className="rs-tabs__tab">
           <div className="row">
             <div className="col-12 col-md-6 d-flex mb-5">
               <span className="rs-icon-box">
@@ -78,7 +78,7 @@ const Faq = () => {
             </div>
           </div>
         </Tab>
-        <Tab eventKey="profile" title="Profile" className="rs-tabs__tab">
+        <Tab eventKey="pricing" title="Pricing" className="rs-tabs__tab">
           <div className="row">
             <div className="col-12 col-md-6 d-flex mb-5">
               <span className="rs-icon-box">
@@ -110,7 +110,7 @@ const Faq = () => {
             </div>
           </div>
         </Tab>
-        <Tab eventKey="contact" title="Contact" className="rs-tabs__tab">
+        <Tab eventKey="join" title="Join with us" className="rs-tabs__tab">
           <div className="row">
             <div className="col-12 col-md-6 d-flex mb-5">
               <span className="rs-icon-box">

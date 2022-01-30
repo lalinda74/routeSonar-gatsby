@@ -1,16 +1,18 @@
 .rs-primary-btn {
     border-radius: 24px;
     height: 48px;
+    color: #FFF;
+    padding: 0 16px;
+    border: none;
     &--primary {
         background-color: #37966f;
-        color: #FFF;
-        padding: 0 24px;
-        border: none;
     }
     &--primary-red {
         background-color: #eb5757;
-        color: #FFF;
-        padding: 0 24px;
-        border: none;
+    }
+
+    &__icon {
+        margin-left: 1rem;
+        line-height: 48px;
     }
 }

@@ -1,22 +1,29 @@
 #rsSummary {
     background: #fffbf6;
+    background-image: url("/static/bg-image.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 5%;
+    background-size: 36rem;
 }
+
 .rs-summary {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: calc(100vh - 92px);
-    background-image: url("/static/bg-image.svg");
-    background-repeat: no-repeat;
-    background-position: 95% 64%;
     &__left {
         margin-top: 3rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .rs-summary {
+    #rsSummary {
         background-image: none;
+        &__left {
+            margin-top: unset;
+        }
+    }
+    .rsSummary {
         &__left {
             margin-top: unset;
         }
