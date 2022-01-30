@@ -10,6 +10,7 @@ import Summary from '../components/page-sections/summary';
 import Features from '../components/page-sections/features';
 import PricingPlans from "../components/page-sections/pricing-plans";
 import Faq from "../components/page-sections/faq";
+import Footer from "../components/page-sections/footer";
 
 // markup
 const IndexPage = () => {
@@ -28,6 +29,9 @@ const IndexPage = () => {
         </Container>
         <Container fluid id="rsFaq">
           <Faq></Faq>
+        </Container>
+        <Container fluid id="rsFooter">
+          <Footer></Footer>
         </Container>
       </main>
     </SSRProvider>

@@ -1,0 +1,30 @@
+.rs-tabs {
+    justify-content: center;
+    border-bottom: unset;
+    > li {
+        width: 14%;
+        > button {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #3A3A3A;
+            &.active {
+                font-size: 1rem;
+                font-weight: 600;
+                background-color: unset !important;
+                border: unset !important;
+                color: #EB5757;
+                text-decoration: underline;
+                text-decoration-color: rgb(250, 114, 64);
+                -moz-text-decoration-color: rgb(250, 114, 64);
+                text-decoration-thickness: 5px;
+                &:hover {
+                    color: #EB5757;
+                    text-decoration: underline;
+                    text-decoration-color: rgb(250, 114, 64);
+                    -moz-text-decoration-color: rgb(250, 114, 64);
+                    text-decoration-thickness: 5px;
+                }
+            }
+        }
+    }
+}

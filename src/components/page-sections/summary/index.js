@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Container } from 'react-bootstrap';
-import TCLogo from '../../../images/tc-logo.png';
+import DFTLogo from '../../../images/DFT-logo.png';
 
 const Summary = () => {
 
@@ -15,10 +15,10 @@ const Summary = () => {
         <div className='rs-featured mt-5'>
           <h6>Featured on</h6>
           <picture>
-            <img src={TCLogo} loading="lazy" alt="profile" className="rs-featured__logo" />
+            <img src={DFTLogo} loading="lazy" alt="profile" className="rs-featured__logo" />
           </picture>
           <picture>
-            <img src={TCLogo} loading="lazy" alt="profile" className="rs-featured__logo" />
+            <img src={DFTLogo} loading="lazy" alt="profile" className="rs-featured__logo" />
           </picture>
         </div>
       </div>
