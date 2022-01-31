@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Container } from "react-bootstrap";
 import logo from "../../../images/logo-white.svg";
-import FBIcon from "../../../images/FB.svg";
+import FBIcon from "../../../images/fb.svg";
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
         />
         <small className="rs-grey-txt">
           Find us on:{" "}
-          <a href="https://www.facebook.com/RouteSonar" target="_blank">
+          <a href="https://www.facebook.com/RouteSonar" target="_blank" rel="noreferrer">
             <img src={FBIcon} alt="Facebook" className="rs-footer__sm-icon" />
           </a>
         </small>
