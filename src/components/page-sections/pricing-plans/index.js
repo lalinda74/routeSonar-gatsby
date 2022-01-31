@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Container } from "react-bootstrap";
+import DoneIcon from '../../../../public/static/Done.svg';
 
 const PricingPlans = () => {
   return (
@@ -18,9 +19,9 @@ const PricingPlans = () => {
             <div>
               <h5 className="text-center">Basic</h5>
               <p className="text-center">Made for Starters</p>
-              <ul className="pt-3">
-                <li className="rs-card__list-item">1,000 locations</li>
-                <li className="rs-card__list-item">Mail support</li>
+              <ul className="pt-3 rs-card__list">
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> 1,000 locations</li>
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> Mail support</li>
               </ul>
             </div>
             <div>
@@ -31,12 +32,13 @@ const PricingPlans = () => {
         </div>
         <div className="col-12 col-sm-4 col-md-4 mb-5">
           <div className="rs-card">
+            <span className="rs-card__tag">Popular</span>
             <div>
               <h5 className="text-center">Pro</h5>
               <p className="text-center">Made for Growth</p>
               <ul className="pt-3">
-                <li className="rs-card__list-item">10,000 locations</li>
-                <li className="rs-card__list-item">Mail and phone support</li>
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> 10,000 locations</li>
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> Mail and phone support</li>
               </ul>
             </div>
             <div>
@@ -51,9 +53,9 @@ const PricingPlans = () => {
               <h5 className="text-center">Enterprise</h5>
               <p className="text-center">Made for Corporate</p>
               <ul className="pt-3">
-                <li className="rs-card__list-item">25,000 locations</li>
-                <li className="rs-card__list-item">Mail and phone support</li>
-                <li className="rs-card__list-item">Advanced analytics dashboard</li>
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> 25,000 locations</li>
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> Mail and phone support</li>
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> Advanced analytics dashboard</li>
               </ul>
             </div>
             <div>

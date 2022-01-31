@@ -1,4 +1,5 @@
 import * as React from "react";
+import Helmet from "react-helmet"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../theme/global.scss';
 
@@ -12,10 +13,17 @@ import PricingPlans from "../components/page-sections/pricing-plans";
 import Faq from "../components/page-sections/faq";
 import Footer from "../components/page-sections/footer";
 
+// favicon
+import FavIcon from '../../public/static/favicon.ico';
+
 // markup
 const IndexPage = () => {
   return (
     <SSRProvider>
+      <Helmet>
+        <title>RouteSONAR</title>
+        <link rel="icon" type="image/x-icon" href={FavIcon}></link>
+      </Helmet>
       <main className="rs-main-wrapper">
         <Container fluid id="rsSummary">
           <Header></Header>
