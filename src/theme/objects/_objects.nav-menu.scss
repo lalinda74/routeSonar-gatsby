@@ -12,23 +12,23 @@
     }
   }
 
-  &.show {
-    background: #0066d2;
-    height: 101vh;
-    padding: 0;
-    margin: -48px -24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    -webkit-transition: all 0.4s cubic-bezier(0.61, -0.44, 0.33, 1.39);
-    transition: all 0.4s cubic-bezier(0.61, -0.44, 0.33, 1.39);
-    .navbar-nav:nth-of-type(1) {
-        margin-top: 6rem;
-    }
-    .nav-link {
-        height: 5.5rem;
-        font-size: 2rem;
-        font-weight: 600;
-    }
-  }
+  // &.show {
+  //   background: #0066d2;
+  //   height: 101vh;
+  //   padding: 0;
+  //   margin: -48px -24px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-around;
+  //   -webkit-transition: all 0.4s cubic-bezier(0.61, -0.44, 0.33, 1.39);
+  //   transition: all 0.4s cubic-bezier(0.61, -0.44, 0.33, 1.39);
+  //   .navbar-nav:nth-of-type(1) {
+  //       margin-top: 6rem;
+  //   }
+  //   .nav-link {
+  //       height: 5.5rem;
+  //       font-size: 2rem;
+  //       font-weight: 600;
+  //   }
+  // }
 }
