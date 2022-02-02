@@ -12,9 +12,11 @@ import Features from '../components/page-sections/features';
 import PricingPlans from "../components/page-sections/pricing-plans";
 import Faq from "../components/page-sections/faq";
 import Footer from "../components/page-sections/footer";
+import Sustainability from '../components/page-sections/sustainability';
 
 // favicon
 import FavIcon from '../../public/static/favicon.ico';
+import FeatureTiles from "../components/page-sections/feature-tiles";
 
 // markup
 const IndexPage = () => {
@@ -25,22 +27,42 @@ const IndexPage = () => {
         <link rel="icon" type="image/x-icon" href={FavIcon}></link>
       </Helmet>
       <main className="rs-main-wrapper">
-        <Container fluid id="rsSummary">
-          <Header></Header>
-          <Summary></Summary>
-        </Container>
-        <Container fluid id="rsFeatures">
-          <Features></Features>
-        </Container>
-        <Container fluid id="rsPricingPlans">
-          <PricingPlans></PricingPlans>
-        </Container>
-        <Container fluid id="rsFaq">
-          <Faq></Faq>
-        </Container>
-        <Container fluid id="rsFooter">
-          <Footer></Footer>
-        </Container>
+        <section id="rsSummary">
+          <Container>
+            <Header></Header>
+            <Summary></Summary>
+          </Container>
+        </section>
+        <section id="rsFeatures">
+          <Container>
+            <Features></Features>
+          </Container>
+        </section>
+        <section id="rsFeatureTiles">
+          <Container>
+            <FeatureTiles></FeatureTiles>
+          </Container>
+        </section>
+        <section id="rsPricingPlans">
+          <Container id="rsPricingPlans">
+            <PricingPlans></PricingPlans>
+          </Container>
+        </section>
+        <section id="rsSus">
+          <Container>
+            <Sustainability></Sustainability>
+          </Container>
+        </section>
+        <section id="rsFaq">
+          <Container id="rsFaq">
+            <Faq></Faq>
+          </Container>
+        </section>
+        <section id="rsFooter">
+          <Container id="rsFooter">
+            <Footer></Footer>
+          </Container>
+        </section>
       </main>
     </SSRProvider>
   )

@@ -17,7 +17,7 @@ const PricingPlans = () => {
         <div className="col-12 col-sm-4 col-md-4 mb-5">
           <div className="rs-card">
             <div>
-              <h5 className="text-center">Basic</h5>
+              <h3 className="text-center">Basic</h3>
               <p className="text-center">Made for Starters</p>
               <ul className="pt-3 rs-card__list">
                 <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> 1,000 locations</li>
@@ -34,7 +34,7 @@ const PricingPlans = () => {
           <div className="rs-card">
             <span className="rs-card__tag">Popular</span>
             <div>
-              <h5 className="text-center">Pro</h5>
+              <h3 className="text-center">Pro</h3>
               <p className="text-center">Made for Growth</p>
               <ul className="pt-3">
                 <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> 10,000 locations</li>
@@ -50,7 +50,7 @@ const PricingPlans = () => {
         <div className="col-12 col-sm-4 col-md-4 mb-5">
           <div className="rs-card">
             <div>
-              <h5 className="text-center">Enterprise</h5>
+              <h3 className="text-center">Enterprise</h3>
               <p className="text-center">Made for Corporate</p>
               <ul className="pt-3">
                 <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> 25,000 locations</li>

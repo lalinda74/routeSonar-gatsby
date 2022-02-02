@@ -16,9 +16,9 @@ const Header = () => {
             <Nav.Link href="#rsPricingPlans" className="rs-slide-up">Pricing</Nav.Link>
             <Nav.Link href="#rsFaq" className="rs-slide-up">FAQ</Nav.Link>
           </Nav>
-          <Nav>
+          {/* <Nav>
             <button className='rs-primary-btn rs-primary-btn--primary rs-slide-up'>Let's Talk</button>
-          </Nav>
+          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

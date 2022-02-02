@@ -1,0 +1,45 @@
+.rs-feature-card {
+    // border: 1px solid #d9d9d9;
+    height: 20rem;
+    padding: 1.5rem;
+    &__title {
+        height: 3rem;
+    }
+    &__desc {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+    &--first {
+        background-color: #ffd02e;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        background-image: url("/static/firstTileBg.svg");
+        background-repeat: no-repeat;
+    }
+    &--second {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    &--third {
+        background-color: #4362ff;
+        color: #FFF;
+        padding-top: 3rem;
+    }
+}
+
+.rs-features-tiles {
+    // background-image: url("/static/features-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 100% -32%;
+}
+
+.rs-sus {
+    background-repeat: no-repeat;
+    background-position: 100% -32%;
+    &__img {
+        width: 100%;
+    }
+}

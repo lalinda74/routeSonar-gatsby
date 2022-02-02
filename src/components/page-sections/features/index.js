@@ -16,7 +16,7 @@ const Features = () => {
               <span className="material-icons">travel_explore</span>
             </span>
             <div>
-              <h5 className="rs-info-box__header">Visualize & Plan</h5>
+              <h3 className="rs-info-box__header">Visualize & Plan</h3>
               <p className="rs-info-box__desc">
                 Manage all of your orders with highly customizable views before
                 optimizing routes.
@@ -28,7 +28,7 @@ const Features = () => {
               <span className="material-icons-outlined">trending_up</span>
             </span>
             <div>
-              <h5 className="rs-info-box__header">Optimize</h5>
+              <h3 className="rs-info-box__header">Optimize</h3>
               <p className="rs-info-box__desc">
                 Optimize your routes and distribute among your delivery
                 partners.
@@ -40,7 +40,7 @@ const Features = () => {
               <span className="material-icons-outlined">loop</span>
             </span>
             <div>
-              <h5 className="rs-info-box__header">Track & Progress</h5>
+              <h3 className="rs-info-box__header">Track & Progress</h3>
               <p className="rs-info-box__desc">
                 Track all of your data in one application to make better
                 decisions to grow your business or product.

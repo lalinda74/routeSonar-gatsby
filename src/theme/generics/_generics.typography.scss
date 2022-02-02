@@ -9,13 +9,18 @@ h2 {
     line-height: 2.5rem;
 }
 h3{
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 600;
+}
+h4 {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+h5 {
     font-size: 1rem;
     line-height: 1.7rem;
     font-weight: 500;
-}
-h5 {
-    font-size: 1.5rem;
-    font-weight: 600;
 }
 h6 {
     font-size: 0.9rem;
@@ -35,4 +40,8 @@ p {
 
 .rs-grey-txt {
     color: #808080;
+}
+
+.rs-large-para {
+    font-size: 1.2rem;
 }
