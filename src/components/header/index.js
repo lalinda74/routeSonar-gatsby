@@ -14,6 +14,7 @@ const Header = () => {
             <Nav.Link href="#rsSummary" className="rs-slide-up">Home</Nav.Link>
             <Nav.Link href="#rsFeatures" className="rs-slide-up">Features</Nav.Link>
             <Nav.Link href="#rsPricingPlans" className="rs-slide-up">Pricing</Nav.Link>
+            <Nav.Link href="#rsSus" className="rs-slide-up">Sustainability</Nav.Link>
             <Nav.Link href="#rsFaq" className="rs-slide-up">FAQ</Nav.Link>
           </Nav>
           {/* <Nav>
