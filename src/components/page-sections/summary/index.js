@@ -6,41 +6,48 @@ import ECHELONLogo from "../../../images/ECHELON-logo.jpeg";
 const Summary = () => {
   return (
     <Container className="rs-summary">
-      <div className="rs-summary__left col-xs-12 col-md-7">
-        <h1 className="mt-4 rs-slide-up">
-          Smart route planning for efficient and sustainable last mile
-          deliveries
-        </h1>
-        <h5 className="mt-4 rs-slide-up">
-          RouteSonar helps you improve your on road efficiency by more than 20%
-          while enabling you to accommodate more orders.
-        </h5>
-        <div className="mt-5 pb-5">
-          <button className="rs-primary-btn rs-primary-btn--primary-red mt-4 d-flex align-items-center rs-slide-up">
-            Book a Demo<span className="material-icons rs-primary-btn__icon">next_plan</span>
-          </button>
+      <div className="row">
+        <div className="rs-summary__left col-xs-12 col-md-6">
+          <div>
+            <h1 className="rs-summary__title">
+              Smart route planning for efficient and sustainable last mile
+              deliveries
+            </h1>
+            <h5 className="my-5 rs-summary__desc">
+              RouteSonar helps you improve your on road efficiency by more than
+              20% while enabling you to accommodate more orders.
+            </h5>
+            <div className="pb-5">
+              <button className="rs-btn rs-btn--primary-variant mt-4 d-flex align-items-center rs-slide-up">
+                Book a Demo
+                <span className="material-icons rs-btn__icon">
+                  next_plan
+                </span>
+              </button>
+            </div>
+          </div>
+          <div className="rs-featured">
+            <h6>Featured on</h6>
+            <picture>
+              <img
+                src={DFTLogo}
+                loading="lazy"
+                alt="profile"
+                className="rs-featured__logo"
+              />
+            </picture>
+            <picture>
+              <img
+                src={ECHELONLogo}
+                loading="lazy"
+                alt="profile"
+                className="rs-featured__logo"
+              />
+            </picture>
+          </div>
         </div>
-        <div className="rs-featured mt-5 pb-5 rs-slide-up">
-          <h6>Featured on</h6>
-          <picture>
-            <img
-              src={DFTLogo}
-              loading="lazy"
-              alt="profile"
-              className="rs-featured__logo"
-            />
-          </picture>
-          <picture>
-            <img
-              src={ECHELONLogo}
-              loading="lazy"
-              alt="profile"
-              className="rs-featured__logo"
-            />
-          </picture>
-        </div>
+        <div className="rs-summary__right offset-md-1 col-md-5"></div>
       </div>
-      <div className="rs-summary__right col-4"></div>
     </Container>
   );
 };

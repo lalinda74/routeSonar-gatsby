@@ -1,5 +1,7 @@
 // layout styles
 
 .rs-main-wrapper {
-    padding: 0;
+    > div {
+        padding: 0;
+    }
 }
