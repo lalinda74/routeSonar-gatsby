@@ -1,8 +1,8 @@
 .rs-info-box {
     margin-right: 3rem;
     padding: 24px;
-    background: #eceefa;
     border-radius: 12px;
+    position: relative;
     &__header {
         margin-bottom: 0.2rem;
     }
@@ -11,5 +11,80 @@
         opacity: 0.78;
         line-height: 1.4rem;
         margin-bottom: 0;
+        display: none;
     }
+    .rs-progress-bar {
+        display: none;
+    }
+    &--active {
+        background: #eceefa;
+        p {
+            display: block;
+        }
+        .rs-progress-bar {
+            display: block;
+        }
+    }
+}
+
+.rs-progress-bar {
+    // width: 100%;
+    background: #050038;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 2px;
+    animation: loader 5s ease infinite;
+    overflow: hidden;
+}
+
+@keyframes loader {
+    // @for $i from 1 through 100 {
+    //     #{$i} {
+    //         width: $i;
+    //     }
+    // }
+	0% {
+		width: 0;
+	}
+
+	20% {
+		width: 20%;
+	}
+
+	25% {
+		width: 25%;
+	}
+
+	43% {
+		width: 43%;
+	}
+
+	56% {
+		width: 56%;
+	}
+
+	66% {
+		width: 66%;
+	}
+
+	71% {
+		width: 71%;
+	}
+
+	75% {
+		width: 75%;
+    
+	}
+
+	94% {
+		width: 94%;
+	}
+
+	100% {
+		width: 100%;
+	}
+
 }

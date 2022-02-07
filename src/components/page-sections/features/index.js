@@ -1,32 +1,32 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import Feature1 from "../../../images/feature1.svg";
+import Feature2 from "../../../images/feature2.svg";
 
 const Features = () => {
 
-  const [index, setIndex] = React.useState(0);
-  const timeoutRef = React.useRef(null);
-
-  function resetTimeout() {
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-    }
-  }
+  const [activeIndex, setshowIndex] = useState(1);
+  const [activeImage, setActiveImage] = useState(Feature1);
 
   useEffect(() => {
-    resetTimeout();
-    timeoutRef.current = setInterval(
+    const timeout = setTimeout(
       () => tick(),
-      1000
+      5000
     );
 
     return () => {
-      resetTimeout();
+      clearTimeout(timeout);
     };
-  }, [index]);
+  }, [activeIndex]);
 
   function tick() {
-    console.log('test');
+    setshowIndex(activeIndex + 1);
+    if (activeIndex === 2) {
+      setActiveImage(Feature2);
+    }
+    if (activeIndex > 3) {
+      setshowIndex(1);
+    }
   }
 
   return (
@@ -36,8 +36,8 @@ const Features = () => {
         <br /> <span className="rs-grey-txt text_1 mt-2">Deliveries</span> <span className="rs-grey-txt text_2">Staff</span>
       </h3>
       <div className="row mt-5">
-        <div className="col-12 col-md-4 rs-features__wrapper">
-          <div className="d-flex rs-info-box">
+        <div className="col-12 col-md-3 rs-features__wrapper">
+          <div className={`d-flex rs-info-box ${activeIndex === 1 ? 'rs-info-box--active' : null}`}>
             {/* <span className="rs-icon-box">
               <span className="material-icons">travel_explore</span>
             </span> */}
@@ -48,8 +48,9 @@ const Features = () => {
                 optimizing routes.
               </p>
             </div>
+            <div className="rs-progress-bar"></div>
           </div>
-          <div className="d-flex rs-info-box">
+          <div className={`d-flex rs-info-box ${activeIndex === 2 ? 'rs-info-box--active' : null}`}>
             {/* <span className="rs-icon-box">
               <span className="material-icons-outlined">trending_up</span>
             </span> */}
@@ -60,8 +61,9 @@ const Features = () => {
                 partners.
               </p>
             </div>
+            <div className="rs-progress-bar"></div>
           </div>
-          <div className="d-flex rs-info-box">
+          <div className={`d-flex rs-info-box ${activeIndex === 3 ? 'rs-info-box--active' : null}`}>
             {/* <span className="rs-icon-box">
               <span className="material-icons-outlined">loop</span>
             </span> */}
@@ -72,10 +74,24 @@ const Features = () => {
                 decisions to grow your business or product.
               </p>
             </div>
+            <div className="rs-progress-bar"></div>
+          </div>
+          <div className={`d-flex rs-info-box ${activeIndex === 4 ? 'rs-info-box--active' : null}`}>
+            {/* <span className="rs-icon-box">
+              <span className="material-icons-outlined">loop</span>
+            </span> */}
+            <div>
+              <h5 className="rs-info-box__header">Track & Progress</h5>
+              <p className="rs-info-box__desc">
+                Track all of your data in one application to make better
+                decisions to grow your business or product.
+              </p>
+            </div>
+            <div className="rs-progress-bar"></div>
           </div>
         </div>
-        <div className="col-12 col-md-8 d-flex align-items-center">
-          <img src={Feature1} className="img-fluid" alt="feature 1" />
+        <div className="col-12 col-md-9 d-flex align-items-center">
+          <img src={activeImage} className="img-fluid" alt="feature 1" />
         </div>
       </div>
     </Container>
