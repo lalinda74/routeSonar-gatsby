@@ -32,7 +32,7 @@ const Sustainability = () => {
           </div>
         </div>
         <div className="col-12 col-md-4 d-flex align-items-center">
-          <img src={SusImage} alt="Sus Image" className="rs-sus__img" />
+          <img src={SusImage} alt="Sustainability" className="rs-sus__img" />
         </div>
       </div>
     </Container>

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Container } from "react-bootstrap";
+import Slider from '../../../images/slider1.jpg';
 import DFTLogo from "../../../images/DFT-logo.png";
 import ECHELONLogo from "../../../images/ECHELON-logo.jpeg";
 
@@ -46,7 +47,9 @@ const Summary = () => {
             </picture>
           </div>
         </div>
-        <div className="rs-summary__right offset-md-1 col-md-5"></div>
+        <div className="rs-summary__right offset-md-1 col-md-5">
+          <img src={Slider} alt="delivery" />
+        </div>
       </div>
     </Container>
   );

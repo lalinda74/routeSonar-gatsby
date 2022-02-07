@@ -1,9 +1,15 @@
 .rs-info-box {
     margin-right: 3rem;
+    padding: 24px;
+    background: #eceefa;
+    border-radius: 12px;
     &__header {
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.2rem;
     }
     &__desc {
-        color: #696969;
+        font-size: 0.8rem;
+        opacity: 0.78;
+        line-height: 1.4rem;
+        margin-bottom: 0;
     }
 }

@@ -20,7 +20,7 @@ const PricingPlans = () => {
           <div className="rs-card">
             <div>
               <div className="d-flex justify-content-center">
-                <img src={LocationImg} className="rs-card__img text-center" />
+                <img src={LocationImg} className="rs-card__img text-center" alt ="location pricing plan" />
               </div>
               <h3 className="text-center pt-4">Pay for location usage</h3>
               {/* <p className="text-center">Made for Starters</p> */}
@@ -40,7 +40,7 @@ const PricingPlans = () => {
             {/* <span className="rs-card__tag">Popular</span> */}
             <div>
             <div className="d-flex justify-content-center">
-                <img src={DeliveryImg} className="rs-card__img text-center" />
+                <img src={DeliveryImg} className="rs-card__img text-center" alt ="delivery pricing plan" />
               </div>
               <h3 className="text-center pt-4">Pay per vehicle per month</h3>
               {/* <p className="text-center">Made for Growth</p> */}
