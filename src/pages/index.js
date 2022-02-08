@@ -38,9 +38,9 @@ const IndexPage = () => {
         <section id="rsFeatures">
           <Features></Features>
         </section>
-        <section id="rsFeatureTiles">
+        {/* <section id="rsFeatureTiles">
           <FeatureTiles></FeatureTiles>
-        </section>
+        </section> */}
         <section id="rsPricingPlans">
           <PricingPlans></PricingPlans>
         </section>

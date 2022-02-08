@@ -42,10 +42,9 @@ const Features = () => {
               <span className="material-icons">travel_explore</span>
             </span> */}
             <div>
-              <h5 className="rs-info-box__header">Visualize & Plan</h5>
+              <h5 className="rs-info-box__header">Route Optimization</h5>
               <p className="rs-info-box__desc">
-                Manage all of your orders with highly customizable views before
-                optimizing routes.
+                Plan the most efficient route based on the distance and time constraints.
               </p>
             </div>
             <div className="rs-progress-bar"></div>
@@ -55,10 +54,9 @@ const Features = () => {
               <span className="material-icons-outlined">trending_up</span>
             </span> */}
             <div>
-              <h5 className="rs-info-box__header">Optimize</h5>
+              <h5 className="rs-info-box__header">Fleet Optimization</h5>
               <p className="rs-info-box__desc">
-                Optimize your routes and distribute among your delivery
-                partners.
+                Use available fleet information to allocate routes based on capacity optimization. Energy efficient fleet planning.
               </p>
             </div>
             <div className="rs-progress-bar"></div>
@@ -68,10 +66,9 @@ const Features = () => {
               <span className="material-icons-outlined">loop</span>
             </span> */}
             <div>
-              <h5 className="rs-info-box__header">Track & Progress</h5>
+              <h5 className="rs-info-box__header">Mobile App / Map Integration</h5>
               <p className="rs-info-box__desc">
-                Track all of your data in one application to make better
-                decisions to grow your business or product.
+              Innovative mobile app to plan/ track deliveries in real time. Use existing map on mobile to plot the full route.
               </p>
             </div>
             <div className="rs-progress-bar"></div>
@@ -81,17 +78,16 @@ const Features = () => {
               <span className="material-icons-outlined">loop</span>
             </span> */}
             <div>
-              <h5 className="rs-info-box__header">Track & Progress</h5>
+              <h5 className="rs-info-box__header">Data Analytics</h5>
               <p className="rs-info-box__desc">
-                Track all of your data in one application to make better
-                decisions to grow your business or product.
+                Transform operational data into meaningful information for informed decision making. Track Route analytics, Fleet analytics and Green analytics to stay ahead in the competition.
               </p>
             </div>
             <div className="rs-progress-bar"></div>
           </div>
         </div>
         <div className="col-12 col-md-9 d-flex align-items-center">
-          <img src={activeImage} className="img-fluid" alt="feature 1" />
+          <img src={activeImage} className="rs-features__img" alt="feature 1" />
         </div>
       </div>
     </Container>

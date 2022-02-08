@@ -1,7 +1,8 @@
 // layout styles
 
-.rs-main-wrapper {
-    > div {
-        padding: 0;
+
+@media screen and (max-width: 600px) {
+    .rs-main-wrapper {
+        padding: 0 12px;
     }
 }

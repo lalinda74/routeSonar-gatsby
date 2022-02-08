@@ -9,20 +9,20 @@ const Summary = () => {
     <Container className="rs-summary">
       <div className="row">
         <div className="rs-summary__left col-xs-12 col-md-6">
-          <div>
+          <div className="mt-4">
             <h1 className="rs-summary__title">
               Smart route planning for efficient and sustainable last mile
               deliveries
             </h1>
-            <h5 className="my-5 rs-summary__desc">
+            <h4 className="my-5 rs-summary__desc">
               RouteSonar helps you improve your on road efficiency by more than
               20% while enabling you to accommodate more orders.
-            </h5>
+            </h4>
             <div className="pb-5">
               <button className="rs-btn rs-btn--primary-variant mt-4 d-flex align-items-center rs-slide-up">
                 Book a Demo
                 <span className="material-icons rs-btn__icon">
-                  next_plan
+                  arrow_right_alt
                 </span>
               </button>
             </div>
@@ -47,7 +47,7 @@ const Summary = () => {
             </picture>
           </div>
         </div>
-        <div className="rs-summary__right offset-md-1 col-md-5">
+        <div className="rs-summary__right offset-md-1 col-md-5 d-none d-md-block">
           <img src={Slider} alt="delivery" />
         </div>
       </div>

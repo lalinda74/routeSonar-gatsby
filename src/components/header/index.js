@@ -6,15 +6,15 @@ const Header = () => {
 
   return (
     <Navbar collapseOnSelect expand="lg" className='rs-header'>
-        <Navbar.Brand href="#home"><img src={logo} loading="lazy" alt="profile" className="rs-header__logo" /></Navbar.Brand>
+        <Navbar.Brand href="/" className='d-flex align-items-center'><img src={logo} loading="lazy" alt="profile" className="rs-header__logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className='rs-navbar'>
-          <Nav className="ms-auto ">
-            <Nav.Link href="#rsSummary" className="rs-slide-up">Home</Nav.Link>
-            <Nav.Link href="#rsFeatures" className="rs-slide-up">Features</Nav.Link>
-            <Nav.Link href="#rsPricingPlans" className="rs-slide-up">Pricing</Nav.Link>
-            <Nav.Link href="#rsSus" className="rs-slide-up">Sustainability</Nav.Link>
-            <Nav.Link href="#rsFaq" className="rs-slide-up">FAQ</Nav.Link>
+          <Nav className="ms-auto align-items-center">
+            <Nav.Link href="#rsSummary">Home</Nav.Link>
+            <Nav.Link href="#rsFeatures">Features</Nav.Link>
+            <Nav.Link href="#rsPricingPlans">Pricing</Nav.Link>
+            <Nav.Link href="#rsSus">Sustainability</Nav.Link>
+            <Nav.Link href="#rsFaq">FAQ</Nav.Link>
             <button className='rs-btn rs-btn--primary rs-header__btn'>Let's Talk</button>
           </Nav>
         </Navbar.Collapse>
