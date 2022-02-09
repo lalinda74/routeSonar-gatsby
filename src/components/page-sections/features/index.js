@@ -31,10 +31,10 @@ const Features = () => {
 
   return (
     <Container className="rs-features">
-      <h3 className="text-center pt-5">
+      <h2 className="text-center pt-5">
         We help you move your
         <br /> <span className="rs-grey-txt text_1 mt-2">Deliveries</span> <span className="rs-grey-txt text_2">Staff</span>
-      </h3>
+      </h2>
       <div className="row mt-5">
         <div className="col-12 col-md-3 rs-features__wrapper">
           <div className={`d-flex rs-info-box ${activeIndex === 1 ? 'rs-info-box--active' : null}`}>
@@ -42,7 +42,7 @@ const Features = () => {
               <span className="material-icons">travel_explore</span>
             </span> */}
             <div>
-              <h5 className="rs-info-box__header">Route Optimization</h5>
+              <h4 className="rs-info-box__header">Route Optimization</h4>
               <p className="rs-info-box__desc">
                 Plan the most efficient route based on the distance and time constraints.
               </p>
@@ -54,7 +54,7 @@ const Features = () => {
               <span className="material-icons-outlined">trending_up</span>
             </span> */}
             <div>
-              <h5 className="rs-info-box__header">Fleet Optimization</h5>
+              <h4 className="rs-info-box__header">Fleet Optimization</h4>
               <p className="rs-info-box__desc">
                 Use available fleet information to allocate routes based on capacity optimization. Energy efficient fleet planning.
               </p>
@@ -66,7 +66,7 @@ const Features = () => {
               <span className="material-icons-outlined">loop</span>
             </span> */}
             <div>
-              <h5 className="rs-info-box__header">Mobile App / Map Integration</h5>
+              <h4 className="rs-info-box__header">Mobile App / Map Integration</h4>
               <p className="rs-info-box__desc">
               Innovative mobile app to plan/ track deliveries in real time. Use existing map on mobile to plot the full route.
               </p>
@@ -78,7 +78,7 @@ const Features = () => {
               <span className="material-icons-outlined">loop</span>
             </span> */}
             <div>
-              <h5 className="rs-info-box__header">Data Analytics</h5>
+              <h4 className="rs-info-box__header">Data Analytics</h4>
               <p className="rs-info-box__desc">
                 Transform operational data into meaningful information for informed decision making. Track Route analytics, Fleet analytics and Green analytics to stay ahead in the competition.
               </p>

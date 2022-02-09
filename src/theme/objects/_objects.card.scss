@@ -3,7 +3,7 @@
 }
 
 .rs-card {
-    background: #ECF9F1;
+    background: #eceefa;
     border-radius: 12px;
     padding: 40px 12px 24px 12px;
     height: 28rem;
@@ -40,7 +40,16 @@
 }
 
 @media screen and (max-width: 600px) {
+    .rs-card {
+        height: 24rem;
+        &__img {
+            width: 55%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
     .rs-card-wrapper {
-        padding: 0;
+        padding: 0 0.8rem;
     }
 }
