@@ -19,4 +19,18 @@
     .rs-header {
         min-height: 66px;
     }
+    .rs-navbar {
+        min-height: calc(100vh - 66px);
+    }
+    .nav-link {
+        line-height: 4rem !important;
+        font-size: 1.4rem;
+    }
+    .navbar-nav {
+        margin-top: 4rem;
+    }
+    .rs-header__btn {
+        margin-top: 5rem;
+        margin-left: 0 !important;
+    }
 }
