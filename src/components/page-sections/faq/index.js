@@ -28,7 +28,7 @@ const list = [
 
 const Faq = () => {
   return (
-    <Container className="rs-features pb-5">
+    <Container className="rs-faq pb-5">
       <h2 className="text-center pt-5">Frequently Asked Questions</h2>
       <p className="text-center">
         Everything you need to know about us
@@ -44,7 +44,7 @@ const Faq = () => {
                 list.length > 0 && 
                 list.map(item =>(
                   <div className="row" key = {item.id}>
-                    <div className="col-12 offset-md-3 col-md-6 py-4">
+                    <div className="col-12 offset-md-2 col-md-8">
                       <ExpandedRow data = {item}></ExpandedRow>
                     </div>
                   </div>

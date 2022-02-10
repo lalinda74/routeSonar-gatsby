@@ -29,7 +29,15 @@
       margin-top: unset;
     }
   }
-  .rsSummary {
+  .rs-summary {
+    &__right {
+      height: 60vh;
+      padding: 0;
+      border-radius: 0;
+      img {
+        border-radius: 0;
+      }
+    }
     &__left {
       margin-top: unset;
     }

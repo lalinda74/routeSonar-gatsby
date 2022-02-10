@@ -1,0 +1,20 @@
+.rs-progress-bar {
+    background: #050038;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 2px;
+    animation: loader 5s forwards;
+    overflow: hidden;
+}
+
+@keyframes loader {
+    0% {
+        width : 0%;
+    }
+    100% {
+        width : 100%;
+    }
+}
