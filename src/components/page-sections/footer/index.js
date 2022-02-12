@@ -5,7 +5,7 @@ import FBIcon from "../../../images/fb.svg";
 
 const Footer = () => {
   return (
-    <Container className="rs-footer py-5">
+    <Container className="rs-footer rs-section-wrapper py-5">
       <div className="d-flex align-items-center justify-content-between">
         <img
           src={logo}

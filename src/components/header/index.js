@@ -5,7 +5,7 @@ import logo from '../../images/logo.svg';
 const Header = () => {
 
   return (
-    <Navbar collapseOnSelect expand="lg" className='rs-header'>
+    <Navbar collapseOnSelect expand="lg" className='rs-header rs-section-wrapper'>
         <Navbar.Brand href="/" className='d-flex align-items-center'><img src={logo} loading="lazy" alt="profile" className="rs-header__logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className='rs-navbar'>

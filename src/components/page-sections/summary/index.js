@@ -6,7 +6,7 @@ import ECHELONLogo from "../../../images/ECHELON-logo.jpeg";
 
 const Summary = () => {
   return (
-    <Container className="rs-summary">
+    <Container className="rs-summary rs-section-wrapper">
       <div className="row">
         <div className="rs-summary__left col-xs-12 col-md-6 order-2 order-md-1">
           <div className="mt-4">
@@ -14,11 +14,11 @@ const Summary = () => {
               Smart route planning for efficient and sustainable last mile
               deliveries
             </h1>
-            <h4 className="my-5 rs-summary__desc">
+            <p className="my-md-5 rs-summary__desc">
               RouteSonar helps you improve your on road efficiency by more than
               20% while enabling you to accommodate more orders.
-            </h4>
-            <div className="pb-5">
+            </p>
+            <div className="pb-5 rs-summary__action-wrapper">
               <button className="rs-btn rs-btn--primary-variant mt-4 d-flex align-items-center rs-slide-up">
                 Book a Demo
                 <span className="material-icons rs-btn__icon">
@@ -40,7 +40,6 @@ const Summary = () => {
             <picture>
               <img
                 src={ECHELONLogo}
-                loading="lazy"
                 alt="profile"
                 className="rs-featured__logo"
               />

@@ -3,7 +3,7 @@ import { Container, Tabs, Tab } from "react-bootstrap";
 
 import ExpandedRow from '../../expanded-row';
 
-const list = [
+const GENERAL_LIST = [
   {
     id: 1,
     title: 'What is RouteSONAR?',
@@ -24,11 +24,32 @@ const list = [
     title: 'How much of an efficiency improvement can I expect out of this?',
     desc: 'We estimate a cost improvement of 30% overall where the on-road efficiency can range from 20% to 30% based on the sheer volume of the orders handled.'
   }
-]
+];
+
+const PRICING_LIST = [
+  {
+    id: 1,
+    title: 'What are the available pricing plans?',
+    desc: 'We offer two pricing plans – Pay as you Go & location bundles.{" "} Pay as you Go – You will be charged for the usage at the end of the month based on the number of locations you process. Location bundle – You may pre-purchase a location bundle based on your historical usage and pay for the additional usage at the end of each month.'
+  },
+  {
+    id: 2,
+    title: 'What is the advantage if I go for a bundle package?',
+    desc: 'Compared to the Pay as you Go plan, Bundle packages are discounted by more than 20% with additional usage charged at lower rates.'
+  }
+];
+
+const JOIN_US_LIST = [
+  {
+    id: 1,
+    title: 'This is fantastic! How do I sign up?',
+    desc: 'You can email us at hello@routesonar.com or call us at 0768 426 882'
+  }
+];
 
 const Faq = () => {
   return (
-    <Container className="rs-faq pb-5">
+    <Container className="rs-faq rs-section-wrapper pb-5">
       <h2 className="text-center pt-5">Frequently Asked Questions</h2>
       <p className="text-center">
         Everything you need to know about us
@@ -41,8 +62,8 @@ const Faq = () => {
       >
         <Tab eventKey="general" title="General" className="rs-tabs__tab">
         {
-                list.length > 0 && 
-                list.map(item =>(
+                GENERAL_LIST.length > 0 && 
+                GENERAL_LIST.map(item =>(
                   <div className="row" key = {item.id}>
                     <div className="col-12 offset-md-2 col-md-8">
                       <ExpandedRow data = {item}></ExpandedRow>
@@ -52,58 +73,28 @@ const Faq = () => {
         }
         </Tab>
         <Tab eventKey="pricing" title="Pricing" className="rs-tabs__tab">
-          <div className="row">
-            <div className="col-12 col-md-6 d-flex mb-5">
-              <span className="rs-icon-box">
-                <span className="material-icons">menu</span>
-              </span>
-              <div>
-                <h3 className="rs-info-box__header">
-                  What are the available pricing plans?
-                </h3>
-                <p className="rs-info-box__desc">
-                  We offer two pricing plans – Pay as you Go & location bundles.{" "}
-                </p>
-                <p className="rs-info-box__desc">
-                  Pay as you Go – You will be charged for the usage at the end
-                  of the month based on the number of locations you process.
-                </p>
-                <p className="rs-info-box__desc">
-                  Location bundle – You may pre-purchase a location bundle based
-                  on your historical usage and pay for the additional usage at
-                  the end of each month.
-                </p>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 d-flex mb-5">
-              <span className="rs-icon-box">
-                <span className="material-icons">menu</span>
-              </span>
-              <div>
-                <h3 className="rs-info-box__header">
-                What is the advantage if I go for a bundle package?
-                </h3>
-                <p className="rs-info-box__desc">
-                Compared to the Pay as you Go plan, Bundle packages are discounted by more than 20% with additional usage charged at lower rates.
-                </p>
-              </div>
-            </div>
-          </div>
+          {
+                  PRICING_LIST.length > 0 && 
+                  PRICING_LIST.map(item =>(
+                    <div className="row" key = {item.id}>
+                      <div className="col-12 offset-md-2 col-md-8">
+                        <ExpandedRow data = {item}></ExpandedRow>
+                      </div>
+                    </div>
+                  ))
+          }
         </Tab>
         <Tab eventKey="join" title="Join with us" className="rs-tabs__tab">
-          <div className="row">
-            <div className="col-12 col-md-6 d-flex mb-5">
-              <span className="rs-icon-box">
-                <span className="material-icons">menu</span>
-              </span>
-              <div>
-                <h3 className="rs-info-box__header">This is fantastic! How do I sign up?</h3>
-                <p className="rs-info-box__desc">
-                You can email us at hello@routesonar.com or call us at 0768 426 882
-                </p>
-              </div>
-            </div>
-          </div>
+        {
+                  JOIN_US_LIST.length > 0 && 
+                  JOIN_US_LIST.map(item =>(
+                    <div className="row" key = {item.id}>
+                      <div className="col-12 offset-md-2 col-md-8">
+                        <ExpandedRow data = {item}></ExpandedRow>
+                      </div>
+                    </div>
+                  ))
+          }
         </Tab>
       </Tabs>
     </Container>

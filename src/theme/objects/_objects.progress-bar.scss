@@ -3,9 +3,10 @@
     width: 0;
     height: 2px;
     position: absolute;
-    left: 0;
-    bottom: 0;
-    border-radius: 2px;
+    left: 6px;
+    bottom: 0.5px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
     animation: loader 5s forwards;
     overflow: hidden;
 }
@@ -15,6 +16,6 @@
         width : 0%;
     }
     100% {
-        width : 100%;
+        width : 96%;
     }
 }

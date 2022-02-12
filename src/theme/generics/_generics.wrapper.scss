@@ -1,8 +1,8 @@
 // layout styles
 
-
-@media screen and (max-width: 600px) {
-    .rs-main-wrapper {
-        padding: 0 12px;
+@media screen and (min-width: 1200px) {
+    .rs-section-wrapper {
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 }

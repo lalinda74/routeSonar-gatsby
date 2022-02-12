@@ -6,7 +6,7 @@ import DeliveryImg from '../../../images/delivery.png';
 
 const PricingPlans = () => {
   return (
-    <Container className="rs-pricing-plan">
+    <Container className="rs-pricing-plan rs-section-wrapper">
       <h2 className="text-center pt-5">
         Simple Pricing
         <br /> for Everyone
@@ -15,7 +15,7 @@ const PricingPlans = () => {
         Pricing built for businesses of all sizes. <br /> Always know what
         you’ll pay.
       </p>
-      <div className="row py-5 rs-card-wrapper">
+      <div className="row py-5 rs-card-wrapper flex-row flex-nowrap">
         <div className="col-12 col-sm-4 offset-md-1 col-md-5 mb-4">
           <div className="rs-card">
             <div>

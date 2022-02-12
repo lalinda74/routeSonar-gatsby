@@ -51,5 +51,11 @@
 @media screen and (max-width: 600px) {
     .rs-card-wrapper {
         padding: 0 0.8rem;
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        > div {
+            flex: 0 0 80vw;
+        }
     }
 }

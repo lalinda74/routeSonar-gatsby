@@ -35,13 +35,13 @@ const Features = () => {
   }
 
   return (
-    <Container className="rs-features">
-      <h2 className="text-center pt-5">
+    <Container className="rs-features rs-section-wrapper">
+      <h2 className="text-center">
         We help you move your
         <br /> <span className="rs-grey-txt text_1 mt-2">Deliveries</span> <span className="rs-grey-txt text_2">Staff</span>
       </h2>
-      <div className="row mt-5">
-        <div className="col-12 col-md-3 rs-features__wrapper">
+      <div className="mt-3 rs-features-pw">
+        <div className="rs-features__wrapper rs-features-pw__left">
           <div className={`d-flex rs-info-box ${activeIndex === 1 ? 'rs-info-box--active' : null}`} role="button" onClick={() => changeOption(1)}>
             <div>
               <h4 className="rs-info-box__header">Route Optimization</h4>
@@ -79,7 +79,7 @@ const Features = () => {
             <ProgressBar></ProgressBar>
           </div>
         </div>
-        <div className="col-12 col-md-9 d-flex align-items-center">
+        <div className="d-flex align-items-center rs-features-pw__right">
           <img src={activeImage} className="rs-features__img" alt="feature 1" />
         </div>
       </div>
