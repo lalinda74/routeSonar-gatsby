@@ -3,32 +3,19 @@
   a {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
+    line-height: 50px;
+    overflow: hidden;
+    color: rgb(5, 0, 56);
+    background: linear-gradient(to right, royalblue, royalblue 50%, #363636 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none; // text decorations are clipped in WebKit browsers
     &:hover {
-      color: #eb5757;
-      text-decoration: underline;
-      text-decoration-color: rgb(250, 114, 64);
-      -moz-text-decoration-color: rgb(250, 114, 64);
-      text-decoration-thickness: 5px;
+      background-position: 0 100%;
     }
   }
-
-  // &.show {
-  //   background: #0066d2;
-  //   height: 101vh;
-  //   padding: 0;
-  //   margin: -48px -24px;
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: space-around;
-  //   -webkit-transition: all 0.4s cubic-bezier(0.61, -0.44, 0.33, 1.39);
-  //   transition: all 0.4s cubic-bezier(0.61, -0.44, 0.33, 1.39);
-  //   .navbar-nav:nth-of-type(1) {
-  //       margin-top: 6rem;
-  //   }
-  //   .nav-link {
-  //       height: 5.5rem;
-  //       font-size: 2rem;
-  //       font-weight: 600;
-  //   }
-  // }
 }

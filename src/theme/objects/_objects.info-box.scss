@@ -1,9 +1,43 @@
 .rs-info-box {
-    margin-right: 3rem;
-    &__header {
-        margin-bottom: 0.8rem;
+  margin-right: 0.5rem;
+  padding: 24px;
+  border-radius: 12px;
+  position: relative;
+  &__header {
+    margin-bottom: 0.5rem;
+  }
+  &__desc {
+    font-size: 0.85rem;
+    opacity: 0.78;
+    line-height: 1.2rem;
+    margin-bottom: 0;
+    display: none;
+  }
+  .rs-progress-bar {
+    display: none;
+  }
+  &--active {
+    background: #eceefa;
+    -webkit-animation: dropFadeInUp 300ms;
+    animation: dropFadeInUp 300ms;
+    p {
+      display: block;
     }
-    &__desc {
-        color: #696969;
+    .rs-progress-bar {
+      display: block;
     }
+  }
+}
+
+@keyframes dropFadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }

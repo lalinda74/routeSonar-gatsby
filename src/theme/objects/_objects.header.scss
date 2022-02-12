@@ -1,4 +1,36 @@
+#rsHeader {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    border-bottom: 1px solid #eee;
+    background: #FFF;
+}
+
 .rs-header {
-    height: 10rem;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    &__btn {
+        margin-left: 2rem;
+    }
 }
   
+@media screen and (max-width: 600px) {
+    .rs-header {
+        min-height: 66px;
+    }
+    .rs-navbar {
+        min-height: calc(100vh - 66px);
+    }
+    .nav-link {
+        line-height: 4rem !important;
+        font-size: 1.4rem;
+    }
+    .navbar-nav {
+        margin-top: 4rem;
+    }
+    .rs-header__btn {
+        margin-top: 5rem;
+        margin-left: 0 !important;
+    }
+}

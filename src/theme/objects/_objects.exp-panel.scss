@@ -1,0 +1,13 @@
+.rs-exp {
+    border-bottom: 1px solid #d4d4d4;
+    &__header {
+        cursor: pointer;
+        min-height: 88px;
+    }
+    &__icon {
+        color: #4362ff;
+    }
+    &__details {
+        color:rgb(102, 112, 133);
+    }
+}

@@ -1,18 +1,19 @@
-.rs-primary-btn {
+.rs-btn {
     border-radius: 24px;
     height: 48px;
     color: #FFF;
-    padding: 0 16px;
+    padding: 0 24px;
     border: none;
     &--primary {
-        background-color: #37966f;
+        background-color: #363636;
     }
-    &--primary-red {
-        background-color: #eb5757;
+    &--primary-variant {
+        background-color: #4362ff;
     }
 
     &__icon {
-        margin-left: 1rem;
+        margin-left: 0.5rem;
         line-height: 48px;
+        opacity: 0.8;
     }
 }
