@@ -49,8 +49,8 @@ const JOIN_US_LIST = [
 
 const Faq = () => {
   return (
-    <Container className="rs-faq rs-section-wrapper pb-5">
-      <h2 className="text-center pt-5">Frequently Asked Questions</h2>
+    <Container className="rs-faq rs-section-wrapper py-5">
+      <h2 className="text-center">Frequently Asked Questions</h2>
       <p className="text-center">
         Everything you need to know about us
       </p>

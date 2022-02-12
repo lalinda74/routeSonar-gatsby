@@ -5,20 +5,20 @@ import DoneIcon from "../../../../public/static/Done.svg";
 
 const Sustainability = () => {
   return (
-    <Container className="rs-sus rs-section-wrapper">
+    <Container className="rs-sus rs-section-wrapper pb-5">
       <div className="row">
-        <div className="rs-sus__left col-12 col-md-6">
-          <h2 className="py-4">Sustainability</h2>
+        <div className="rs-sus__left pt-5 col-12 col-md-6">
+          <h2 className="rs-sus__title py-4">Sustainability</h2>
           <div className="row">
             <div className="d-flex align-items-start my-4 col-md-6">
               <img src={DoneIcon} alt="Done Icon" className="rs-sus__icon" />
-              <p className="mt-5 rs-large-para">
+              <p className="">
                 Break the barrier of geo-fencing by optimizing larger instances.
               </p>
             </div>
             <div className="d-flex align-items-start my-4 col-md-6">
               <img src={DoneIcon} alt="Done Icon" className="rs-sus__icon" />
-              <p className="mt-5 rs-large-para">
+              <p className="">
                 Improve on fleet turnaround time to facilitate more routes.
               </p>
             </div>
@@ -26,7 +26,7 @@ const Sustainability = () => {
           <div className="row">
             <div className="d-flex align-items-start my-4 col-md-8">
               <img src={DoneIcon} alt="Done Icon" className="rs-sus__icon" />
-              <p className="mt-5 rs-large-para">
+              <p className="">
                 Reduce carbon footprint by cutting down the unnecessary miles on
                 road as well as using energy efficient fleet whenever it is
                 available.
