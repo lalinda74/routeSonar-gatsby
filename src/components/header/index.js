@@ -15,7 +15,7 @@ const Header = () => {
             <Nav.Link href="#rsPricingPlans">Pricing</Nav.Link>
             <Nav.Link href="#rsSus">Sustainability</Nav.Link>
             <Nav.Link href="#rsFaq">FAQ</Nav.Link>
-            <button className='rs-btn rs-btn--primary rs-header__btn'>Let's Talk</button>
+            <button className='rs-btn rs-btn--primary rs-header__btn'>Login</button>
           </Nav>
         </Navbar.Collapse>
     </Navbar>

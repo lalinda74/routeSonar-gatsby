@@ -28,7 +28,7 @@ const IndexPage = () => {
       </Helmet>
       <main className="rs-main-wrapper">
         <header id="rsHeader">
-          <Container>
+          <Container fluid="xs, sm, md">
             <Header></Header>
           </Container>
         </header>

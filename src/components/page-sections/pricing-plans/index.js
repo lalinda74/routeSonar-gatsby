@@ -6,7 +6,7 @@ import DeliveryImg from '../../../images/delivery.png';
 
 const PricingPlans = () => {
   return (
-    <Container className="rs-pricing-plan rs-section-wrapper">
+    <Container fluid="xs, sm, md" className="rs-pricing-plan rs-section-wrapper">
       <h2 className="text-center pt-5">
         Simple Pricing
         <br /> for Everyone
@@ -16,26 +16,21 @@ const PricingPlans = () => {
         you’ll pay.
       </p>
       <div className="row py-5 rs-card-wrapper flex-row flex-nowrap">
-        <div className="col-12 col-sm-4 offset-lg-2 col-md-6 col-lg-4 mb-4">
+        <div className="col-12 offset-sm-1 col-sm-5 offset-lg-2 col-md-6 col-lg-4 mb-4">
           <div className="rs-card">
             <div>
               <div className="d-flex justify-content-center">
                 <img src={LocationImg} className="rs-card__img text-center" alt ="location pricing plan" />
               </div>
               <h4 className="text-center pt-4">Pay for location usage</h4>
-              {/* <p className="text-center">Made for Starters</p> */}
               <ul className="pt-3 rs-card__list">
                 <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> Starting at &nbsp;<strong>$29.99</strong></li>
                 <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> 1,000 Locations</li>
               </ul>
             </div>
-            {/* <div>
-              <h4 className="text-center">LKR 35,000 / month</h4>
-              <p className="text-center">LKR 8 per additional request</p>
-            </div> */}
           </div>
         </div>
-        <div className="col-12 col-sm-4 col-md-6 col-lg-4 mb-4">
+        <div className="col-12 col-sm-5 col-md-6 col-lg-4 mb-4">
           <div className="rs-card">
             {/* <span className="rs-card__tag">Popular</span> */}
             <div>

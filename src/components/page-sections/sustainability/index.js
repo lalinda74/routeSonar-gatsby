@@ -5,7 +5,7 @@ import DoneIcon from "../../../../public/static/Done.svg";
 
 const Sustainability = () => {
   return (
-    <Container className="rs-sus rs-section-wrapper pb-5">
+    <Container fluid="xs, sm, md" className="rs-sus rs-section-wrapper pb-5">
       <div className="row">
         <div className="rs-sus__left pt-5 col-12 col-md-6">
           <h2 className="rs-sus__title py-4">Sustainability</h2>
