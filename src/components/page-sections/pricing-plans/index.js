@@ -16,7 +16,7 @@ const PricingPlans = () => {
         you’ll pay.
       </p>
       <div className="row py-5 rs-card-wrapper flex-row flex-nowrap">
-        <div className="col-12 col-sm-4 offset-md-1 col-md-5 mb-4">
+        <div className="col-12 col-sm-4 offset-lg-2 col-md-6 col-lg-4 mb-4">
           <div className="rs-card">
             <div>
               <div className="d-flex justify-content-center">
@@ -35,7 +35,7 @@ const PricingPlans = () => {
             </div> */}
           </div>
         </div>
-        <div className="col-12 col-sm-4 col-md-5 mb-4">
+        <div className="col-12 col-sm-4 col-md-6 col-lg-4 mb-4">
           <div className="rs-card">
             {/* <span className="rs-card__tag">Popular</span> */}
             <div>
