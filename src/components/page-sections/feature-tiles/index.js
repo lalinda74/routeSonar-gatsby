@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 const FeatureTiles = () => {
   return (
-    <Container className="rs-features-tiles mb-5">
+    <Container fluid="xs, sm, md" className="rs-features-tiles mb-5">
       <div className="row justify-content-center">
         <h2 className="pt-5 col-md-8">
           Everything you need <br/>

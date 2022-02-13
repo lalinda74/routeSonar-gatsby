@@ -1,5 +1,26 @@
 // layout styles
 
+@media screen and (max-width: 540px) {
+    .rs-section-wrapper {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 988px) {
+    .rs-section-wrapper {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 987px) and (max-width: 1199px) {
+    .rs-section-wrapper {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .rs-section-wrapper {
         padding-left: 5rem;

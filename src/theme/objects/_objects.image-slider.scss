@@ -1,16 +1,18 @@
 .rs-slider {
     overflow: hidden;
-    max-width: 500px;
     height: inherit;
+    max-height: inherit;
     &__wrapper {
         white-space: nowrap;
         height: inherit;
+        max-height: inherit;
     }
     &__slide {
         display: inline-block;
         width: 100%;
         border-radius: 12px;
         height: inherit;
+        max-height: inherit;
         object-fit: cover;
     }
 }
