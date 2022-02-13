@@ -7,7 +7,7 @@ import ImageSlider from "../../objects/image-slider";
 
 const Summary = () => {
   return (
-    <Container fluid="xs, sm, md" className="rs-summary rs-section-wrapper">
+    <Container fluid="lg" className="rs-summary rs-section-wrapper">
       <div className="row">
         <div className="rs-summary__left col-xs-12 col-md-6 order-2 order-md-1">
           <div className="mt-4">

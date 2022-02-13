@@ -1,5 +1,17 @@
 // layout styles
 
+main {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+// #rsSummary {
+//     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+// }
+
+#rsFeatures {
+    background: #FFF;
+}
+
 @media screen and (max-width: 540px) {
     .rs-section-wrapper {
         padding-left: 1rem;
@@ -11,13 +23,6 @@
     .rs-section-wrapper {
         padding-left: 2rem;
         padding-right: 2rem;
-    }
-}
-
-@media screen and (min-width: 987px) and (max-width: 1199px) {
-    .rs-section-wrapper {
-        padding-left: 3rem;
-        padding-right: 3rem;
     }
 }
 

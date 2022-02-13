@@ -45,13 +45,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  #rsSummary {
-    background-image: none;
-    &__left {
-      margin-top: unset;
-    }
-  }
+@media screen and (max-width: 767px) {
   .rs-summary {
     &__right {
       height: 40vh;
@@ -63,6 +57,7 @@
     }
     &__left {
       margin-top: unset;
+      margin-bottom: 3rem;
     }
     &__desc {
       text-align: center;
@@ -74,5 +69,10 @@
   }
   .rs-featured {
     text-align: center;
+  }
+  .rs-slider  {
+    position: absolute;
+    left: -4px;
+    width: 101vw;
   }
 }

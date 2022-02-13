@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useEffect } from "react";
 import Helmet from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../theme/global.scss";
@@ -16,10 +16,30 @@ import Sustainability from "../components/page-sections/sustainability";
 
 // favicon
 import FavIcon from "../../public/static/favicon.ico";
-import FeatureTiles from "../components/page-sections/feature-tiles";
 
 // markup
 const IndexPage = () => {
+
+    useEffect(() => {
+      let timeout;
+      let scroll = 0;
+      window.onscroll = () => {
+        if (timeout) {
+          clearTimeout(timeout)
+        }
+
+        timeout = setTimeout(() => {
+          if (scroll >= window.scrollY && window.scrollY > 10) {
+            document.getElementById('rsHeader').classList.add('sticky')
+          } else {
+            document.getElementById('rsHeader').classList.remove('sticky')
+          }
+
+          scroll = window.scrollY
+        }, 10)
+      }
+    }, []);
+
   return (
     <SSRProvider>
       <Helmet>
@@ -28,7 +48,7 @@ const IndexPage = () => {
       </Helmet>
       <main className="rs-main-wrapper">
         <header id="rsHeader">
-          <Container fluid="xs, sm, md">
+          <Container fluid="lg">
             <Header></Header>
           </Container>
         </header>
@@ -38,9 +58,6 @@ const IndexPage = () => {
         <section id="rsFeatures">
           <Features></Features>
         </section>
-        {/* <section id="rsFeatureTiles">
-          <FeatureTiles></FeatureTiles>
-        </section> */}
         <section id="rsPricingPlans">
           <PricingPlans></PricingPlans>
         </section>

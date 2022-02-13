@@ -1,32 +1,31 @@
 import * as React from "react";
 import { Container } from "react-bootstrap";
 import SusImage from "../../../images/sus.jpeg";
-import DoneIcon from "../../../../public/static/Done.svg";
 
 const Sustainability = () => {
   return (
-    <Container fluid="xs, sm, md" className="rs-sus rs-section-wrapper pb-5">
+    <Container fluid="lg" className="rs-sus rs-section-wrapper">
       <div className="row">
-        <div className="rs-sus__left pt-5 col-12 col-md-6">
-          <h2 className="rs-sus__title py-4">Sustainability</h2>
+        <div className="rs-sus__left py-5 my-md-5 col-12 col-md-6">
+          <h2 className="rs-sus__title py-4">We think about Sustainability, <br/> every step of the way</h2>
           <div className="row">
-            <div className="d-flex align-items-start my-4 col-md-6">
-              <img src={DoneIcon} alt="Done Icon" className="rs-sus__icon" />
-              <p className="">
+            <div className="my-md-4 col-md-6">
+              <h4>Optimize</h4>
+              <p className="mt-2">
                 Break the barrier of geo-fencing by optimizing larger instances.
               </p>
             </div>
-            <div className="d-flex align-items-start my-4 col-md-6">
-              <img src={DoneIcon} alt="Done Icon" className="rs-sus__icon" />
-              <p className="">
+            <div className="my-4 col-md-6">
+              <h4>Improve</h4>
+              <p className="mt-2">
                 Improve on fleet turnaround time to facilitate more routes.
               </p>
             </div>
           </div>
           <div className="row">
-            <div className="d-flex align-items-start my-4 col-md-8">
-              <img src={DoneIcon} alt="Done Icon" className="rs-sus__icon" />
-              <p className="">
+            <div className="my-md-4 col-md-8">
+              <h4>Reduce</h4>
+              <p className="mt-2">
                 Reduce carbon footprint by cutting down the unnecessary miles on
                 road as well as using energy efficient fleet whenever it is
                 available.

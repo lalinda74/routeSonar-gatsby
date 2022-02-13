@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import Slider1 from '../../../images/slider1.jpg';
-import Slider2 from '../../../images/slider2.jpg';
+import Slider1 from '../../../images/slider1.svg';
+import Slider2 from '../../../images/slider2.svg';
 
 const colors = [Slider1, Slider2];
 
