@@ -1,33 +1,33 @@
 #rsHeader {
-    position: sticky;
-    top: 0;
-    z-index: 99;
-    background: transparent;
+//   position: sticky;
+//   top: 0;
+  z-index: 99;
+  background: transparent;
 }
 
 .rs-header {
-    min-height: 80px;
-    display: flex;
-    justify-content: space-between;
-    &__btn {
-        margin-left: 2rem;
-    }
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  &__btn {
+    margin-left: 2rem;
+  }
 }
 
 #rsHeader {
-    top: -100px;
-    transition: top 0.5s ease-in-out;
-  }
-  
-  #rsHeader.sticky {
-    position: sticky;
-    top: 0;
-    border-bottom: 1px solid #eee;
-    background: #FFF;
-  }
-  
+  top: -100px;
+  transition: top 0.5s ease-in-out;
+}
+
+#rsHeader.sticky {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 10px 10px -10px rgb(33 35 38 / 10%);
+  background: rgba(255, 255, 255, 0.96);
+}
+
 @media screen and (max-width: 768px) {
-    .rs-header {
-        min-height: 66px;
-    }
+  .rs-header {
+    min-height: 66px;
+  }
 }
