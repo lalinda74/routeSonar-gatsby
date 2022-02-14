@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Container } from "react-bootstrap";
-// import Slider from '../../../images/slider1.jpg';
 import DFTLogo from "../../../images/DFT-logo.png";
 import ECHELONLogo from "../../../images/ECHELON-logo.jpeg";
 import ImageSlider from "../../objects/image-slider";
@@ -48,7 +47,6 @@ const Summary = () => {
           </div>
         </div>
         <div className="rs-summary__right offset-md-1 col-md-5 order-1 order-md-2">
-          {/* <img src={Slider} alt="delivery" /> */}
           <ImageSlider></ImageSlider>
         </div>
       </div>

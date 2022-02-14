@@ -24,7 +24,21 @@ main {
     }
 }
 
-@media screen and (min-width: 540px) and (max-width: 988px) {
+@media screen and (min-width: 540px) and (max-width: 767px) {
+    .rs-section-wrapper {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .rs-section-wrapper:not(.rs-header, .rs-sus) {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .rs-section-wrapper.rs-summary {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 987px) {
     .rs-section-wrapper {
         padding-left: 2rem;
         padding-right: 2rem;
@@ -35,7 +49,7 @@ main {
     }
 }
 
-@media screen and (min-width: 540px) and (max-width: 1199px) {
+@media screen and (min-width: 988px) and (max-width: 1199px) {
     .rs-section-wrapper:not(.rs-header, .rs-sus) {
         padding-top: 4rem;
         padding-bottom: 4rem;

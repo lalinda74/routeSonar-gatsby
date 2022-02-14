@@ -21,3 +21,29 @@
         }
     }
 }
+
+@media screen and (max-width: 539px) {
+    .rs-sus {
+        &__img {
+            width: 100vw;
+            margin-left: -17px;
+        }
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 767px) {
+    .rs-sus {
+        &__img {
+            width: 100vw;
+            margin-left: -35px;
+        }
+    }
+}
+
+// @media screen and (min-width: 768px) and (max-width: 1200px) {
+//     .rs-sus {
+//         &__img {
+//             width: 60vw;
+//         }
+//     }
+// }

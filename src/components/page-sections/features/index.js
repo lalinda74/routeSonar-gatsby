@@ -43,9 +43,9 @@ const Features = () => {
         We help you move your
         <br /> <span className="rs-grey-txt text_1 mt-2">Deliveries</span> <span className="rs-grey-txt text_2">Staff</span>
       </h2>
-      <div className="mt-3 rs-features-pw">
+      <div className="mt-5 rs-features-pw">
         <div className="rs-features__wrapper rs-features-pw__left">
-          <div className={`d-flex rs-info-box ${activeIndex === 1 ? 'rs-info-box--active' : null}`} role="button" onClick={() => changeOption(1)}>
+          <div className={`d-flex rs-info-box ${activeIndex === 1 ? 'rs-info-box--active' : null}`} role="button" onClick={() => changeOption(1)} tabIndex={0}>
             <div>
               <h4 className="rs-info-box__header">Route Optimization</h4>
               <p className="rs-info-box__desc">
@@ -54,7 +54,7 @@ const Features = () => {
             </div>
             <ProgressBar></ProgressBar>
           </div>
-          <div className={`d-flex rs-info-box ${activeIndex === 2 ? 'rs-info-box--active' : null}`} role="button" onClick={() => changeOption(2)}>
+          <div className={`d-flex rs-info-box ${activeIndex === 2 ? 'rs-info-box--active' : null}`} role="button" onClick={() => changeOption(2)} tabIndex={0}>
             <div>
               <h4 className="rs-info-box__header">Fleet Optimization</h4>
               <p className="rs-info-box__desc">
@@ -63,7 +63,7 @@ const Features = () => {
             </div>
             <ProgressBar></ProgressBar>
           </div>
-          <div className={`d-flex rs-info-box ${activeIndex === 3 ? 'rs-info-box--active' : null}`} role="button" onClick={() => changeOption(3)}>
+          <div className={`d-flex rs-info-box ${activeIndex === 3 ? 'rs-info-box--active' : null}`} role="button" onClick={() => changeOption(3)} tabIndex={0}>
             <div>
               <h4 className="rs-info-box__header">Mobile App / Map Integration</h4>
               <p className="rs-info-box__desc">
@@ -72,7 +72,7 @@ const Features = () => {
             </div>
             <ProgressBar></ProgressBar>
           </div>
-          <div className={`d-flex rs-info-box ${activeIndex === 4 ? 'rs-info-box--active' : null}`} role="button" onClick={() => changeOption(4)}>
+          <div className={`d-flex rs-info-box ${activeIndex === 4 ? 'rs-info-box--active' : null}`} role="button" onClick={() => changeOption(4)} tabIndex={0}>
             <div>
               <h4 className="rs-info-box__header">Data Analytics</h4>
               <p className="rs-info-box__desc">
