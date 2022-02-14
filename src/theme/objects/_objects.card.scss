@@ -31,8 +31,12 @@
         font-size: 0.8rem;
         border-radius: 8px;
     }
+    &__img-wrapper {
+        height: 50%;
+    }
     &__img {
         width: 78%;
+        object-fit: cover;
     }
 }
 

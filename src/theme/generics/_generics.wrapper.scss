@@ -2,6 +2,7 @@
 
 main {
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    animation: slide-down 1.2s forwards;
 }
 
 // #rsSummary {
@@ -17,6 +18,10 @@ main {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .rs-section-wrapper:not(.rs-header, .rs-sus, .rs-summary) {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 }
 
 @media screen and (min-width: 540px) and (max-width: 988px) {
@@ -24,11 +29,26 @@ main {
         padding-left: 2rem;
         padding-right: 2rem;
     }
+    .rs-section-wrapper:not(.rs-header, .rs-sus) {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1199px) {
+    .rs-section-wrapper:not(.rs-header, .rs-sus) {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .rs-section-wrapper {
         padding-left: 5rem;
         padding-right: 5rem;
+    }
+    .rs-section-wrapper:not(.rs-header, .rs-sus) {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
     }
 }

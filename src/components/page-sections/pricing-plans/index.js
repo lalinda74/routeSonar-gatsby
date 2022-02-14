@@ -7,7 +7,7 @@ import DeliveryImg from '../../../images/delivery.png';
 const PricingPlans = () => {
   return (
     <Container fluid="lg" className="rs-pricing-plan rs-section-wrapper">
-      <h2 className="text-center pt-5">
+      <h2 className="text-center">
         Simple Pricing
         <br /> for Everyone
       </h2>
@@ -15,11 +15,11 @@ const PricingPlans = () => {
         Pricing built for businesses of all sizes. <br /> Always know what
         you’ll pay.
       </p>
-      <div className="row py-5 rs-card-wrapper flex-row flex-nowrap">
+      <div className="row pt-5 rs-card-wrapper flex-row flex-nowrap">
         <div className="col-12 offset-sm-1 col-sm-5 offset-lg-2 col-lg-4 mb-4">
           <div className="rs-card">
             <div>
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center rs-card__img-wrapper">
                 <img src={LocationImg} className="rs-card__img text-center" alt ="location pricing plan" />
               </div>
               <h4 className="text-center pt-4">Pay for location usage</h4>
@@ -33,7 +33,7 @@ const PricingPlans = () => {
         <div className="col-12 col-sm-5 col-lg-4 mb-4">
           <div className="rs-card">
             <div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center rs-card__img-wrapper">
                 <img src={DeliveryImg} className="rs-card__img text-center" alt ="delivery pricing plan" />
               </div>
               <h4 className="text-center pt-4">Pay per vehicle per month</h4>

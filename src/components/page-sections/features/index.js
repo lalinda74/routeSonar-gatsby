@@ -6,7 +6,7 @@ import ProgressBar from "../../objects/progress-bar";
 
 const Features = () => {
 
-  const [activeIndex, setshowIndex] = useState(1);
+  const [activeIndex, setShowIndex] = useState(1);
   const [activeImage, setActiveImage] = useState(Feature1);
 
   useEffect(() => {
@@ -21,17 +21,20 @@ const Features = () => {
   }, [activeIndex]);
 
   function tick() {
-    setshowIndex(activeIndex + 1);
-    if (activeIndex === 2) {
+    setShowIndex(activeIndex + 1);
+    if (activeIndex === 1) {
+      setActiveImage(Feature1);
+    } else if (activeIndex === 2) {
       setActiveImage(Feature2);
     }
     if (activeIndex > 3) {
-      setshowIndex(1);
+      setShowIndex(1);
     }
   }
 
   function changeOption(index) {
-    setshowIndex(index);
+    setShowIndex(index);
+    tick();
   }
 
   return (

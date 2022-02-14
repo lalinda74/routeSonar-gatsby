@@ -49,7 +49,7 @@ const JOIN_US_LIST = [
 
 const Faq = () => {
   return (
-    <Container fluid="lg" className="rs-faq rs-section-wrapper py-5">
+    <Container fluid="lg" className="rs-faq rs-section-wrapper">
       <h2 className="text-center">Frequently Asked Questions</h2>
       <p className="text-center">
         Everything you need to know about us
