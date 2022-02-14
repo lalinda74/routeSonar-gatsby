@@ -24,8 +24,8 @@ const PricingPlans = () => {
               </div>
               <h4 className="text-center pt-4">Pay for location usage</h4>
               <ul className="pt-3 rs-card__list">
-                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> Starting at &nbsp;<strong>$29.99</strong></li>
-                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> 1,000 Locations</li>
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /><div>Starting at &nbsp;<strong>$29.99</strong></div></li>
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /><div>1,000 Locations</div></li>
               </ul>
             </div>
           </div>
@@ -38,8 +38,8 @@ const PricingPlans = () => {
               </div>
               <h4 className="text-center pt-4">Pay per vehicle per month</h4>
               <ul className="pt-3 rs-card__list">
-                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> Starting at &nbsp;<strong>$49.99</strong></li>
-                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /> With live tracking &nbsp;<strong>$69.99</strong></li>
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /><div>Starting at &nbsp;<strong>$49.99</strong></div></li>
+                <li className="rs-card__list-item"><img src={DoneIcon} alt = 'Done Icon' /><div>With live tracking &nbsp;<strong>$69.99</strong></div></li>
               </ul>
             </div>
           </div>
