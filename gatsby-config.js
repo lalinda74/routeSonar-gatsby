@@ -1,5 +1,4 @@
 import "@fontsource/inter";
-import "@fontsource/noto-serif";
 
 module.exports = {
     siteMetadata: {
