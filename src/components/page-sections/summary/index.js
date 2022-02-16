@@ -14,7 +14,7 @@ const Summary = () => {
               Smart route planning for efficient and sustainable last mile
               deliveries
             </h1>
-            <p className="my-md-5 rs-summary__desc">
+            <p className="mt-md-3 mb-md-5 rs-summary__desc">
               RouteSonar helps you improve your on road efficiency by more than
               20% while enabling you to accommodate more orders.
             </p>
@@ -46,7 +46,7 @@ const Summary = () => {
             </picture>
           </div>
         </div>
-        <div className="rs-summary__right offset-md-1 col-md-5 order-1 order-md-2">
+        <div className="rs-summary__right offset-lg-1 col-md-6 col-lg-5 order-1 order-md-2">
           <ImageSlider></ImageSlider>
         </div>
       </div>
