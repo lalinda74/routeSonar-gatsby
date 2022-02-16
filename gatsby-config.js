@@ -1,5 +1,3 @@
-import "@fontsource/inter";
-
 module.exports = {
     siteMetadata: {
         title: `RouteSonar`,
