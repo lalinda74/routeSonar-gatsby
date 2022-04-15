@@ -4,7 +4,7 @@ import SusImage from "../../../images/sus.jpeg";
 
 const Sustainability = () => {
   return (
-    <Container fluid="lg" className="rs-sus rs-section-wrapper">
+    <section className="rs-sus rs-section-w rs-section-w--rounded rs-section-w--grey-bg" id="rsSus">
       <div className="row">
         <div className="rs-sus__left py-5 my-md-5 col-12 col-md-6">
           <h2 className="rs-sus__title py-4">We think about Sustainability, <br/> every step of the way</h2>
@@ -37,7 +37,7 @@ const Sustainability = () => {
           <img src={SusImage} alt="Sustainability" className="rs-sus__img" />
         </div>
       </div>
-    </Container>
+    </section>
   );
 };
 export default Sustainability;

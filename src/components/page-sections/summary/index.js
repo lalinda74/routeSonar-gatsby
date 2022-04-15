@@ -6,7 +6,7 @@ import ImageSlider from "../../objects/image-slider";
 
 const Summary = () => {
   return (
-    <Container fluid="lg" className="rs-summary rs-section-wrapper">
+    <section className="rs-summary rs-section-w rs-section-w--pad" id="rsSummary">
       <div className="row">
         <div className="rs-summary__left col-xs-12 col-md-6 order-2 order-md-1">
           <div className="mt-4">
@@ -19,7 +19,7 @@ const Summary = () => {
               20% while enabling you to accommodate more orders.
             </p>
             <div className="pb-5 rs-summary__action-wrapper">
-              <button className="rs-btn rs-btn--primary-variant mt-4 d-flex align-items-center rs-slide-up">
+              <button className="rs-btn rs-btn--lg rs-btn--primary-variant mt-4 d-flex align-items-center rs-slide-up">
                 Book a Demo
                 <span className="material-icons rs-btn__icon">
                   arrow_right_alt
@@ -50,7 +50,7 @@ const Summary = () => {
           <ImageSlider></ImageSlider>
         </div>
       </div>
-    </Container>
+    </section>
   );
 };
 export default Summary;

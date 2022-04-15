@@ -30,6 +30,21 @@
     }
 }
 
+.rs-pricing-card {
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    background: #f8f9fa;
+    padding: 2rem;
+    padding-bottom: 120px;
+    margin-bottom: 2rem;
+    margin-right: 24px;
+    position: relative;
+    will-change: background;
+    -webkit-transition: background .1s;
+    transition: background .1s;
+}
+
 @media screen and (max-width: 600px) {
     .rs-card {
         height: 24rem;

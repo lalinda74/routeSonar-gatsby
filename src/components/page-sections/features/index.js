@@ -38,7 +38,7 @@ const Features = () => {
   }
 
   return (
-    <Container fluid="lg" className="rs-features rs-section-wrapper">
+    <Container fluid="lg" className="rs-features rs-section-wrapper" id="rsFeatures">
       <h2 className="text-center">
         We help you move your
         <br /> <span className="rs-grey-txt text_1 mt-2">Deliveries</span> <span className="rs-grey-txt text_2">Staff</span>
