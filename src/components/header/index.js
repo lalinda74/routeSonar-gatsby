@@ -29,7 +29,7 @@ const Header = () => {
   const hiddenStyle = shouldHideHeader ? 'hidden' : '';
 
   return (
-    <Container fluid="lg" className={`rs-header rs-section-wrapper ${hiddenStyle} ${shadowStyle}`}>
+    <Container fluid="lg" className={`rs-header rs-section-wrapper`}>
       <Navbar collapseOnSelect expand="lg">
         <Navbar.Brand href="/" className='d-flex align-items-center'><img src={logo} loading="lazy" alt="profile" className="rs-header__logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -43,7 +43,7 @@ const Header = () => {
           </Nav>
           <button className='ms-auto rs-btn rs-btn--sm rs-btn--primary rs-header__btn'>Get Started</button>
         </Navbar.Collapse>
-    </Navbar>
+      </Navbar>
     </Container>
   )
 }

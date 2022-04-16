@@ -43,6 +43,7 @@
     will-change: background;
     -webkit-transition: background .1s;
     transition: background .1s;
+    max-height: 380px;
 }
 
 @media screen and (max-width: 600px) {
@@ -60,9 +61,6 @@
         display: flex;
         overflow-x: auto;
         white-space: nowrap;
-        > div {
-            flex: 0 0 70vw;
-        }
     }
 }
 
