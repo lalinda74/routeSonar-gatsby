@@ -1,10 +1,15 @@
 import * as React from "react";
-import { Container } from "react-bootstrap";
 import DFTLogo from "../../../images/DFT-logo.png";
 import ECHELONLogo from "../../../images/ECHELON-logo.jpeg";
 import ImageSlider from "../../objects/image-slider";
+import { navigate } from 'gatsby';
 
 const Summary = () => {
+
+  const viewContactPage = () => {
+    navigate('/contact');
+  };
+
   return (
     <section className="rs-summary rs-section-w rs-section-w--pad" id="rsSummary">
       <div className="row">
@@ -19,7 +24,7 @@ const Summary = () => {
               20% while enabling you to accommodate more orders.
             </p>
             <div className="pb-5 rs-summary__action-wrapper">
-              <button className="rs-btn rs-btn--lg rs-btn--primary-variant mt-4 d-flex align-items-center rs-slide-up">
+              <button className="rs-btn rs-btn--lg rs-btn--primary-variant mt-4 d-flex align-items-center" onClick={() => viewContactPage()}>
                 Book a Demo
                 <span className="material-icons rs-btn__icon">
                   arrow_right_alt

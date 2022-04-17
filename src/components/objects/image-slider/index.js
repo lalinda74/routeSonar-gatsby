@@ -15,8 +15,8 @@ const ImageSlider = () => {
             ),
             delay
         );
-        return () => {};
-    }, [index])
+        return () => { setIndex(0) };
+    }, [index]);
 
     return (
         <section className="rs-slider">
