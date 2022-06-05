@@ -23,14 +23,14 @@ const Summary = () => {
               RouteSonar helps you improve your on road efficiency by more than
               20% while enabling you to accommodate more orders.
             </p>
-            <div className="pb-5 rs-summary__action-wrapper">
+            {/* <div className="pb-5 rs-summary__action-wrapper">
               <button className="rs-btn rs-btn--lg rs-btn--primary-variant mt-4 d-flex align-items-center" onClick={() => viewContactPage()}>
                 Book a Demo
                 <span className="material-icons rs-btn__icon">
                   arrow_right_alt
                 </span>
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="rs-featured">
             <h6>Featured on</h6>

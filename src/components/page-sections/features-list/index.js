@@ -1,7 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Feature2 from "../../../images/feature2.svg";
-import FeatureCircle1 from "../../../images/feature-tile1.svg";
+import FeatureCircle1 from "../../../images/navigation.svg";
+import FeatureCircle2 from "../../../images/truck.svg";
+import FeatureCircle3 from "../../../images/cell.svg";
+import FeatureCircle4 from "../../../images/bar.svg";
 
 const FeaturesList = () => {
 
@@ -26,7 +29,7 @@ const FeaturesList = () => {
           </div>
           <div className='d-flex rs-info-box'>
             <div className="rs-circle rs-circle--space-r">
-              <img src={FeatureCircle1} />
+              <img src={FeatureCircle2} />
             </div>
             <div>
               <h4 className="rs-info-box__header">Fleet Optimization</h4>
@@ -37,7 +40,7 @@ const FeaturesList = () => {
           </div>
           <div className='d-flex rs-info-box'>
             <div className="rs-circle rs-circle--space-r">
-              <img src={FeatureCircle1} />
+              <img src={FeatureCircle3} />
             </div>
             <div>
               <h4 className="rs-info-box__header">Mobile App / Map Integration</h4>
@@ -48,7 +51,7 @@ const FeaturesList = () => {
           </div>
           <div className='d-flex rs-info-box'>
             <div className="rs-circle rs-circle--space-r">
-              <img src={FeatureCircle1} />
+              <img src={FeatureCircle4} />
             </div>
             <div>
               <h4 className="rs-info-box__header">Data Analytics</h4>
