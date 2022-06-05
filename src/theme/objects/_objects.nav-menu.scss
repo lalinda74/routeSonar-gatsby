@@ -18,11 +18,18 @@
   }
 }
 
+.offcanvas-top {
+  height: 80vh;
+}
+
 @media screen and (min-width: 768px) {
   .rs-navbar {
     a {
       padding-left: 1.2rem !important;
       padding-right: 1.2rem !important;
+    }
+    &--res {
+      display: block;
     }
   }
 }
@@ -30,8 +37,10 @@
 @media screen and (max-width: 768px) {
   .rs-navbar {
     a {
-      padding-left: 0.5rem !important;
-      padding-right: 0.5rem !important;
+      padding: 1.5rem 0.5rem !important;
+    }
+    &--res {
+      display: none;
     }
   }
 }

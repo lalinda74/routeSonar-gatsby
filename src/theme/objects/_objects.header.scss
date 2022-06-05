@@ -35,27 +35,3 @@
     transition: top 0.5s ease-in-out;
   }
 }
-
-#rsHeader.sticky {
-  // position: sticky;
-  // top: 0;
-  box-shadow: 0 10px 10px -10px rgb(33 35 38 / 10%);
-  background: rgba(255, 255, 255, 0.96);
-  .rs-header {
-    min-height: 88px;
-  }
-}
-
-.shadow {
-  box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
-}
-
-.hidden {
-  transform: translateY(-110%);
-}
-
-@media screen and (max-width: 768px) {
-  .rs-header {
-    min-height: 66px;
-  }
-}

@@ -15,6 +15,12 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .rs-info-box {
+    padding: 16px 0px 16px 0 !important;
+  }
+}
+
 .rs-circle {
   border-radius: 50%;
   min-width: 4rem;
@@ -25,8 +31,8 @@
   align-items: center;
   justify-content: center;
   img{
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
   }
   &--space-r {
     margin-right: 2rem;
